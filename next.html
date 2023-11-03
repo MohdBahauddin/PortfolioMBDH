@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Bahauddin Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Intro.html">My Intro</a></li>
+                    <!-- <li><a href="/Services.html">Services</a></li> -->
+                    <li><a href="/Blog.html">Blog</a></li>
+                    <li><a href="/Contact.html">Contact</a></li>
+                    <li><a href="/Achievement.html">Achievements</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img src="ham.jpg" alt="Hamburger" class="ham" width="23px">
+                <img src="cross.jpg" alt="Cross" class="cross" width="23px">
+            </div>
+            <div class="blogcontainer">
+                <h1>Blogs By Bahauddin :</h1>
+                <div class="blogitem">
+                    <h2>Arrays :</h2>
+                    <p>Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+                        To declare an array, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store:
+                        <br><br>
+                        int myNum[3] = {10, 20, 30};
+                        <br><br>
+                        Access the Elements of an Array
+                        You access an array element by referring to the index number inside square brackets [].
+                        This statement accesses the value of the first element in cars:
+                        <br><br>
+                        string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+                        cout << cars[0]; <br>
+                        // Outputs Volvo
+                    </p>
+                    <button class="btn btn-sm"><a href="https://www.geeksforgeeks.org/arrays-and-strings-in-c/">Read more</a></button>
+                </div>
+                <div class="blogitem">
+                    <h2>Linked list :</h2>
+                    <p>A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
+                        <br><br>
+                        <img src="Linked.png" alt="Linked list">
+                        <br><br>
+                        In simple words, a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
+                    </p>
+                    <button class="btn btn-sm"><a href="https://www.geeksforgeeks.org/data-structures/linked-list/">Read more</a></button>
+                </div>
+                <!-- <div class="buttons">
+                    <button><a href="next.html">Next>></a></button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
